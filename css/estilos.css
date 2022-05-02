@@ -1,0 +1,343 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  
+/* Inicio */
+
+
+.inicio{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,27,56,1) 40%);
+}
+
+.inicio-titulo {
+    font-family: 'Krub', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.inicio-parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: auto;
+}
+
+.nav-bg a:hover{
+    color: #A04000;
+}
+
+@media (min-width: 768px) {
+    .container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #002D62;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container .card h4{
+    font-size: 1.5rem;
+    color: #A04000;
+    text-transform: uppercase;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+
+.inicio-footer{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 35rem;
+}
+
+@media (min-width: 768px) {
+    .inicio-footer{
+        margin-top: 15rem;
+    }
+}
+
+/* Servicios */
+
+.enlaces{
+    width: 40rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .enlaces{
+    width: 90rem;
+    margin: 0 auto;
+    }
+    
+}
+
+.nav-bg{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+.nav-servicios{
+margin-bottom: 2rem;
+padding: 1rem;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+.nav-servicios a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.ser-titulo{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+
+.ser-seccion{
+    display: flex;
+    margin: 0 4rem 0 3rem;
+    margin-top: 2rem;
+    color: #ffff;
+    flex-direction: column-reverse;
+    margin: auto;
+    margin-left: 3rem;
+}
+
+.ser-seccion img{
+    border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+    .ser-seccion{
+        flex-direction: row;
+        margin: 2rem;
+    }
+}
+
+.ser-seccion p{
+    margin-top: 10rem;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ser-footer{
+    margin-top: 2rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+/* Nosotros */
+
+.titulo-nosotros{
+    font-family: 'Krub', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+}
+
+.nosotros-flex{
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.nosotros-flex img{
+    height: 400px;
+    width: 550px;
+    margin: auto;
+}
+
+
+
+@media (min-width: 768px) {
+    .nosotros-flex{
+        flex-direction: row;
+        margin: 5rem;
+    }
+    .nosotros-flex img{
+        height: 500px;
+        width: 600px;
+    }
+}
+
+.nosotros-flex p{
+    margin-top: 10rem;
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.nosotros-footer{
+    margin-top: 2rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 12rem;
+}
+
+
+/* Fotos */
+
+.fotos-titulo{
+    font-family: 'Krub', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+}
+
+.fotos-descripcion{
+    font-family: 'Krub', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+}
+
+.fotos-flex{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .fotos-flex{
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        margin-left: 3rem;
+    }
+    
+
+}
+
+.fotos-flex img{
+    margin: 2rem;
+    width: 500px;
+}
+
+.fotos-footer{
+    margin-top: 2rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 12rem;
+}
+
+/* Contacto */
+
+.fondo{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,27,56,1) 40%);
+}
+
+.contacto-titulo{
+    font-family: 'Krub', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+
+.contacto-descripcion{
+    font-family: 'Krub', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.contacto-seccion{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+@media (min-width: 768px) {
+    .contacto-seccion img{
+        height: 300px;
+    }
+    
+}
+
+.contacto-seccion img{
+    height: 230px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.contacto-footer{
+    margin-top: 2rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 15rem;
+}
+
+
