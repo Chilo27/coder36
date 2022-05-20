@@ -1,0 +1,46 @@
+/* Fotos */
+
+.fotos-titulo{
+    font-family: 'Krub', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+    text-shadow: 1px 2px 2px black, 0 0 25px rgb(12, 192, 81), 0 0 5px rgb(255, 81, 0);
+
+}
+
+.fotos-descripcion{
+    font-family: 'Krub', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+}
+
+
+.fotos-section{
+    img{
+        height: 450px;
+        width: 550px;
+        margin: auto;
+        border-radius: 1rem;
+        margin-top: 10rem;
+    }
+} 
+
+.fotos-section{
+    button{
+        margin: 1rem;
+        margin-top: 10rem;
+    }
+} 
+
+.fotos-footer{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 12rem;
+}

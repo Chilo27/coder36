@@ -1,0 +1,53 @@
+/* Nosotros */
+
+.titulo-nosotros{
+    font-family: 'Krub', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+    text-shadow: 1px 2px 2px black, 0 0 25px rgb(12, 192, 81), 0 0 5px rgb(255, 81, 0);
+
+}
+
+
+@mixin size ($display, $margin,$flex,$justify){
+    display: $display;
+    margin-top: $margin;
+    flex-direction: $flex;
+    justify-content: $justify;
+}
+
+.nosotros-flex{
+    @include size(flex,2rem ,column-reverse ,center )
+}
+
+
+
+
+.nosotros-flex{
+    img{
+        height: 400px;
+        width: 550px;
+        margin: auto;
+        border-radius: 1rem;
+    }
+    p{
+        margin-top: 3rem;
+        margin-left: 2rem;
+        font-family: italic;
+        font-size: 1.5rem;
+        color: #ffff;
+    }
+}
+
+
+.nosotros-footer{
+    margin-top: 2rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 6rem;
+}

@@ -1,0 +1,1 @@
+Agregue keywords,favicon, descripcion y titulos en todas las paginas, ya que anteriormente no le habia puesto nada a ninguna.
